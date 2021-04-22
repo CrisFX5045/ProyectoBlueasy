@@ -1,0 +1,405 @@
+@import 'fonts';
+@import 'vars';
+@import 'media-queries';
+
+$top-menu: #353f46;
+$e: #4bcaff;
+$selected-menu: #4bcaff;
+$header-copy: #404a52;
+$dark-copy: #515f67;
+$white-copy: #ffffff;
+$just-default-section: #515f67;
+$visit-me: #353f46;
+$twitter-section: #4bcaff;
+$testimonial-name: #4bcaff;
+$message-button: #4bcaff;
+$footer: #353f47;
+
+
+
+
+
+body{
+    width: 100%;
+}
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 0.3rem;
+    margin-left: 28px;
+    font-size: 14px;
+}
+
+.navbar-nav{
+    padding-left: 25px;
+    font-family: 'NotoBold';
+
+}
+.col-sm-3{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    
+}
+
+.barra-arriba{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'NotoBold';
+   
+
+   
+}
+
+.barra-arriba strong{
+    color: $e;
+}
+a:hover{
+    color: $selected-menu;
+    border: 2px solid $selected-menu; 
+}
+
+
+
+
+.nav-link:hover {
+    color: $selected-menu!important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    margin-left: 28rem;
+}
+
+
+.col-sm-1{
+    text-decoration: none;
+    color: white; 
+}
+.bg-dark {
+    background-color: $top-menu!important;
+    padding: 3rem;
+  
+}
+
+.carousel slide{
+    align-items: center;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-item {
+ margin-right: 0%;
+}
+
+
+
+.txt-barra-central{
+position: absolute;
+text-align: -webkit-center;
+margin-left: auto;
+margin-right: auto;
+font-family: "NotoLight";
+
+    h1{
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+    background: #273744b2;
+    width: 73%;
+
+    }
+
+    h5{
+        font-size: 42px;
+        color: rgb(255, 255, 255);
+        background: #273744b2;
+    }
+}
+
+
+
+.barra-abajo{
+    background: $selected-menu;
+    padding: 6rem;
+
+    
+
+    }
+
+.linea-blanca{
+    width: 4.2%;
+    padding: 1.5px;
+    margin: 14px;
+    margin-top: -33px;
+    color: white;
+    opacity: 100%;
+}
+
+p{
+    font-family: 'NotoRegular';
+    font-size: 12px;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.barra-arriba-portafolio{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'NotoLight';
+    
+}
+
+.bg-light{
+    padding: 4rem;
+ 
+}
+
+
+.fotos-portafolio{
+    background: white;
+    padding: 4rem;
+
+
+    .row{
+        --bs-gutter-y: 3rem; 
+    }
+}
+
+
+
+.default-section{
+
+    padding: 4rem;
+    background: $dark-copy;
+}
+
+.txt-just{
+
+    width: 80%;
+
+    h5{
+
+        font-size: 30px;
+        font-family: NotoLight;
+        color: $white-copy;
+    }
+    
+    p{
+        font-size: 14px;
+        font-family: NotoRegular;
+        color: $white-copy;
+     }  
+}
+
+
+.btn-visit{
+    margin-bottom: 5%;
+    width: 100%;
+    position: relative;
+    a{
+
+        color: $header-copy;
+         border: 2px solid $top-menu; 
+        text-align: center;
+        margin-right: 70%;
+    }
+
+    a:hover{
+        color: $selected-menu;
+        border: 2px solid $selected-menu; 
+    }
+
+}
+
+.contenedor-video{
+
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.24%;
+    padding-top: 30px;
+    position: relative;
+
+    .iframe,
+    .object,
+    .embed,
+    .video{
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+
+    }
+
+}
+       
+.txt-twitter{
+
+ 
+
+    h5{
+
+        font-size: 30px;
+        font-family: NotoLight;
+        color: $white-copy;
+
+    
+    }
+    
+    p{
+        font-size: 28px;
+        font-family: NotoLight;
+        color: $white-copy;
+     
+        strong{
+            font-family: NotoRegular;
+        }
+      
+    
+    }  
+}
+
+
+.carousel-inner{
+
+position: relative;
+
+
+    .txt-derecho-camera{
+    position: absolute;
+    color: white;
+    right: 5%;
+    top: 40%;
+    text-align: -webkit-left;
+    margin-left: 45%;
+    margin-right: 5%;
+    font-family: "NotoLight";
+     
+    p{
+        font-size: 14px;
+        font-family: NotoRegular;
+        padding-bottom: 4%;
+    }
+        
+
+    }
+
+
+    .txt-isquierdo-camera{
+        position: absolute;
+        color: white;
+        left: 5%;
+        text-align: -webkit-left;
+        margin-left: auto;
+        margin-right: 60%;
+        font-family: "NotoLight";
+        top: 25%;
+
+        h5{
+            font-size: 30px;
+            font-family: "NotoLIGHT";
+        }
+
+        p{
+            font-size: 14px;
+            font-family: NotoRegular;
+        }
+
+
+    
+        
+        }
+}
+
+
+
+
+.btn-redes{
+    margin-top: 0%;
+    width: 100%;
+    position: relative;
+    a{
+
+        color: $header-copy;
+         border: 2px solid white; 
+        text-align: center;
+        padding: 20%;
+    }
+
+    a:hover{
+        color: $selected-menu;
+        border: 2px solid $selected-menu; 
+    }
+
+}
+
+.barra-camera{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+
+
+.barra-abajo-testimonials{
+    background: white;
+    padding: 6rem;
+
+    }
+
+
+.txt-testimonials{
+    
+ 
+
+    h5{
+
+        font-size: 30px;
+        font-family: NotoLight;
+        color: black;
+
+    
+    }
+    
+    p{
+        font-size: 28px;
+        font-family: NotoLight;
+        color: black;
+     
+        strong{
+            font-family: NotoRegular;
+        }
+      
+    
+    }  
+}
+
+.wa-1{
+   
+
+    a{
+        text-decoration: none;
+        color: $selected-menu;
+    }
+}

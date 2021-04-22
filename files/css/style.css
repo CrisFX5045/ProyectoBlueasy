@@ -1,0 +1,308 @@
+@font-face {
+  font-family: "NotoBold";
+  src: url("../fonts/notosans-bold-webfont.eot");
+  src: url("../fonts/notosans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-bold-webfont.woff2") format("woff2"), url("../fonts/notosans-bold-webfont.woff") format("woff"), url("../fonts/notosans-bold-webfont.ttf") format("truetype"), url("../fonts/notosans-bold-webfont.svg#noto_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoItalic";
+  src: url("../fonts/notosans-italic-webfont.eot");
+  src: url("../fonts/notosans-italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-italic-webfont.woff2") format("woff2"), url("../fonts/notosans-italic-webfont.woff") format("woff"), url("../fonts/notosans-italic-webfont.ttf") format("truetype"), url("../fonts/notosans-italic-webfont.svg#noto_sansitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoRegular";
+  src: url("../fonts/notosans-regular-webfont.eot");
+  src: url("../fonts/notosans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/notosans-regular-webfont.woff2") format("woff2"), url("../fonts/notosans-regular-webfont.woff") format("woff"), url("../fonts/notosans-regular-webfont.ttf") format("truetype"), url("../fonts/notosans-regular-webfont.svg#noto_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NotoLight";
+  src: url("../fonts/notosans-light-webfont.woff2") format("woff2"), url("../fonts/notosans-light-webfont.woff") format("woff"), url("../fonts/notosans-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 2.5rem;
+  padding-left: 0.3rem;
+  margin-left: 28px;
+  font-size: 14px;
+}
+
+.navbar-nav {
+  padding-left: 25px;
+  font-family: "NotoBold";
+}
+
+.col-sm-3 {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.barra-arriba {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "NotoBold";
+}
+
+.barra-arriba strong {
+  color: #4bcaff;
+}
+
+a:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+}
+
+.nav-link:hover {
+  color: #4bcaff !important;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  margin-left: 28rem;
+}
+
+.col-sm-1 {
+  text-decoration: none;
+  color: white;
+}
+
+.bg-dark {
+  background-color: #353f46 !important;
+  padding: 3rem;
+}
+
+.carousel slide {
+  align-items: center;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-item {
+  margin-right: 0%;
+}
+
+.txt-barra-central {
+  position: absolute;
+  text-align: -webkit-center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "NotoLight";
+}
+.txt-barra-central h1 {
+  font-size: 42px;
+  color: white;
+  background: #273744b2;
+  width: 73%;
+}
+.txt-barra-central h5 {
+  font-size: 42px;
+  color: white;
+  background: #273744b2;
+}
+
+.barra-abajo {
+  background: #4bcaff;
+  padding: 6rem;
+}
+
+.linea-blanca {
+  width: 4.2%;
+  padding: 1.5px;
+  margin: 14px;
+  margin-top: -33px;
+  color: white;
+  opacity: 100%;
+}
+
+p {
+  font-family: "NotoRegular";
+  font-size: 12px;
+}
+
+.barra-arriba-portafolio {
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  font-family: "NotoLight";
+}
+
+.bg-light {
+  padding: 4rem;
+}
+
+.fotos-portafolio {
+  background: white;
+  padding: 4rem;
+}
+.fotos-portafolio .row {
+  --bs-gutter-y: 3rem;
+}
+
+.default-section {
+  padding: 4rem;
+  background: #515f67;
+}
+
+.txt-just {
+  width: 80%;
+}
+.txt-just h5 {
+  font-size: 30px;
+  font-family: NotoLight;
+  color: #ffffff;
+}
+.txt-just p {
+  font-size: 14px;
+  font-family: NotoRegular;
+  color: #ffffff;
+}
+
+.btn-visit {
+  margin-bottom: 5%;
+  width: 100%;
+  position: relative;
+}
+.btn-visit a {
+  color: #404a52;
+  border: 2px solid #353f46;
+  text-align: center;
+  margin-right: 70%;
+}
+.btn-visit a:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+}
+
+.contenedor-video {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.24%;
+  padding-top: 30px;
+  position: relative;
+}
+.contenedor-video .iframe,
+.contenedor-video .object,
+.contenedor-video .embed,
+.contenedor-video .video {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.txt-twitter h5 {
+  font-size: 30px;
+  font-family: NotoLight;
+  color: #ffffff;
+}
+.txt-twitter p {
+  font-size: 28px;
+  font-family: NotoLight;
+  color: #ffffff;
+}
+.txt-twitter p strong {
+  font-family: NotoRegular;
+}
+
+.carousel-inner {
+  position: relative;
+}
+.carousel-inner .txt-derecho-camera {
+  position: absolute;
+  color: white;
+  right: 5%;
+  top: 40%;
+  text-align: -webkit-left;
+  margin-left: 45%;
+  margin-right: 5%;
+  font-family: "NotoLight";
+}
+.carousel-inner .txt-derecho-camera p {
+  font-size: 14px;
+  font-family: NotoRegular;
+  padding-bottom: 4%;
+}
+.carousel-inner .txt-isquierdo-camera {
+  position: absolute;
+  color: white;
+  left: 5%;
+  text-align: -webkit-left;
+  margin-left: auto;
+  margin-right: 60%;
+  font-family: "NotoLight";
+  top: 25%;
+}
+.carousel-inner .txt-isquierdo-camera h5 {
+  font-size: 30px;
+  font-family: "NotoLIGHT";
+}
+.carousel-inner .txt-isquierdo-camera p {
+  font-size: 14px;
+  font-family: NotoRegular;
+}
+
+.btn-redes {
+  margin-top: 0%;
+  width: 100%;
+  position: relative;
+}
+.btn-redes a {
+  color: #404a52;
+  border: 2px solid white;
+  text-align: center;
+  padding: 20%;
+}
+.btn-redes a:hover {
+  color: #4bcaff;
+  border: 2px solid #4bcaff;
+}
+
+.barra-camera {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.barra-abajo-testimonials {
+  background: white;
+  padding: 6rem;
+}
+
+.txt-testimonials h5 {
+  font-size: 30px;
+  font-family: NotoLight;
+  color: black;
+}
+.txt-testimonials p {
+  font-size: 28px;
+  font-family: NotoLight;
+  color: black;
+}
+.txt-testimonials p strong {
+  font-family: NotoRegular;
+}
+
+.wa-1 a {
+  text-decoration: none;
+  color: #4bcaff;
+}
